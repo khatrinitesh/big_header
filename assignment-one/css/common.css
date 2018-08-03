@@ -1,0 +1,55 @@
+*{
+	margin:0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+body{
+	/* background-color:powderblue; */
+}
+
+ul,ol{
+	list-style-type: none;
+	margin:0;
+	padding: 0;
+}
+
+.clear::after{
+	content:"";
+	display: table;
+	clear: both;
+}
+
+.txt_center{
+	text-align: center;
+}
+
+.fright{
+	float: right;
+}
+
+.fleft{
+	float: left;
+}
+
+.list_inline li{
+	display: inline-block;
+}
+
+/* ========================== STYLING ========================== */
+header{
+    background-color: #1abc9c;
+    padding: 110px 0;
+    text-align: center;
+    color:#fff;
+}
+
+header h1{
+    margin-bottom: 56px;
+}
+
+.content{
+    padding: 20px;
+}
